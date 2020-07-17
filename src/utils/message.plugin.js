@@ -4,8 +4,8 @@ export default {
             window.M.toast({html})
         }
 
-        /*Vue.prototype.$error = function(html) {
+        Vue.prototype.$error = function(html) {
             window.M.toast({html: `[Ошибка]: ${html}`})
-        }*/
+        }
     }
 }
